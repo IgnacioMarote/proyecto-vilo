@@ -202,13 +202,18 @@
     display: inline;
     background-color: green;
     flex-grow: 1;
-    margin: 70px 0px 0px 300px;
+    padding: 70px 0px 0px 300px;
 }
 .footer__redes--card{
     display: block;
     background-color: green;
     color: white;
-    padding: 10px 50px;
+    margin: 15px;
+    padding: 5px 50px;
+}
+.footer__redes--card:hover{
+    transform: translate(0px, -5px);
+    border: solid 1px white;
 }
 .footer__redes--card a{
     text-decoration: none;
@@ -222,6 +227,9 @@
     margin-top: 100px;
     width: 100px;
     height:100px;
+}
+.footer__logo:hover{
+    transform: translate(0px, -5px);
 }
 .footer__mapa{
     background-color: green;
