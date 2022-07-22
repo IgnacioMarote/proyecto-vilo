@@ -9,45 +9,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>VILO | Club Municipalidad de Vicente Lopez</title> 
 </head>
 <body>
     <header><!-- ENCABEZADO -->
-        <nav class="header__nav">
-            <img class="header__logo" src="../resources/favicon.ico" alt="logo de vilo">
-            <ul class="header__lista">
-                <li class="header__item"><a href="../index.html">Inicio</a></li>
-                <li class="header__item"><a href="deportes.html">Deportes</a></li>
-                <li class="header__item"><a href="instalaciones.html">Instalaciones</a></li>
-                <li class="header__item"><a href="dormis.html">Dormis</a></li>
-                <li class="header__item"><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../resources/favicon.ico" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
+                        <li class="nav-item"><a class="nav-link active text-white" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="deportes.html">Deportes</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="instalaciones.html">Instalaciones</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="dormis.html">Dormis</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main><!-- DEPORTES -->
         <section class="deportes">
-            <article class="deportes__card">
-                <img class="deportes__img" src="../resources/cancha-handball.jpg" alt="handball">
-                <p class="deportes__texto">HANDBALL</p>
-            </article>
-            <article class="deportes__card">
-                <img class="deportes__img" src="../resources/cancha-hockey.jpg" alt="handball">
-                <p class="deportes__texto">HOCKEY</p>
-            </article>
-            <article class="deportes__card">
-                <img class="deportes__img" src="../resources/cancha-futbol.jpg" alt="handball">
-                <p class="deportes__texto">FUTBOL</p>
-            </article>
-            <article class="deportes__card">
-                <img class="deportes__img" src="../resources/cancha-rugby.jpg" alt="handball">
-                <p class="deportes__texto">RUGBY</p>
-            </article>
-            <article class="deportes__card">
-                <img class="deportes__img" src="../resources/karate.jpg" alt="handball">
-                <p class="deportes__texto">KARATE</p>
-            </article>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/cancha-handball.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HANDBALL</h5>
+                </div>
+            </div>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/cancha-hockey.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HOCKEY</h5>
+                </div>
+            </div>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/cancha-futbol.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FUTBOL</h5>
+                </div>
+            </div>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/cancha-rugby.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">RUGBY</h5>
+                </div>
+            </div>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/cancha-paddle.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PADDLE</h5>
+                </div>
+            </div>
+            <div class="card m-5 deportes__card">
+                <img src="../resources/karate.jpg" class="card-img-top deportes__img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">KARATE</h5>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -72,5 +97,7 @@
         <img class="footer__logo" src="../resources/favicon.ico" alt="Logo de vilo">
         <iframe class="footer__mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13148.935685552988!2d-58.4705445!3d-34.522301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25d1b2cd461c9b9f!2sClub%20Vilo!5e0!3m2!1ses-419!2sar!4v1655510801090!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
