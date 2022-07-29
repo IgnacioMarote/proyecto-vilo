@@ -1,0 +1,46 @@
+/* FOOTER */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    justify-content: space-evenly;
+    &__redes{
+        display: inline;
+        background-color: green;
+        flex-grow: 1;
+        padding: 70px 0px 0px 300px;
+        &--card{
+            display: block;
+            background-color: green;
+            color: white;
+            margin: 15px;
+            padding: 5px 50px;
+            &:hover{
+                padding-left: 56px;
+            }
+            & a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+    &__logo{
+        display: inline;
+        background-color: green;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100px;
+        height:100px;
+        &:hover{
+            transform: translate(0px, -5px);
+        }
+    }
+    &__mapa{
+        background-color: green;
+        flex-grow: 1;
+        padding: 20px;
+        margin: 0px 150px 0px 150px;
+        width: 250px;
+    }
+}

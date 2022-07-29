@@ -1,0 +1,147 @@
+/* MEDIA TABLET */
+@media (min-width: 576px) and (max-width: 992px){
+    /* footer */
+    .inicio{
+        flex-wrap: wrap;
+    }
+    .footer__redes{
+        justify-content: center;
+        align-items: center;
+        margin: 16px;
+        padding: 16px;
+        flex-grow: 0;
+    }
+    .footer__logo{
+        display: none;
+    }
+    .footer__mapa{
+        margin: 15px;
+        width: 100%;
+    }
+    /* inicio */
+    .inicio__parrafo{
+        margin: 20px;
+        width: auto;
+    }
+    .inicio__img{
+        width: 90vw;
+        height: auto;
+    }
+    /* deportes */
+    .deportes__card{
+        height: 300px;
+        width: 350px;
+    }
+    .deportes__img{
+        height: 250px;
+        width: 350px;
+    } 
+    /* instalaciones */
+    .instalaciones__galeria{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:"cancha-handball cancha-hockey"
+                            "karate cancha-paddle"
+                            "cancha-futbol cancha-rugby"
+                            "dormis-img rugby";
+    }
+    /* dormis */
+    .dormis__texto{
+        padding: 15px;
+    }
+}
+
+/* MEDIA DE CELULAR */
+@media (min-width: 320px) and (max-width:575px){
+    /* footer */
+    .footer__redes{
+        margin: 15px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+    }
+    .footer__logo{
+        display: none;
+    }
+    .footer__mapa{
+        width: 100%;
+        margin: 16px;
+    }
+    /* inicio */
+    .inicio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inicio__parrafo{
+        margin: 16px;
+        width: 100%;
+    }
+    .inicio__texto{
+        margin: 16px;
+    }
+    .inicio__img{
+        width: 90vw;
+        height: auto;
+    }
+    /* deportes */
+    .deportes{
+        justify-content: center;
+    }
+    /* instalaciones */
+    .instalaciones__galeria{
+        display: grid;
+        width: 100vw;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:"cancha-handball"
+                            "cancha-hockey"
+                            "karate"
+                            "cancha-paddle"
+                            "cancha-futbol"
+                            "cancha-rugby"
+                            "dormis-img"
+                            "rugby";
+    }
+    .cancha-handball{
+        height: 400px;
+    }
+    .cancha-hockey{
+        height: 400px;
+    }
+    .karate{
+        height: 400px;
+    }
+    .cancha-paddle{
+        height: 400px;
+    }
+    .cancha-futbol{
+        height: 400px;
+    }
+    .cancha-rugby{
+        height: 400px;
+    }
+    .dormis-img{
+        height: 400px;
+    }
+    .rugby{
+        height: 400px;
+    }
+    /* dormis */
+    .dormis__img{
+        width: 90vw;
+    }
+    .dormis__texto{
+        padding: 15px;
+    }
+    /* contacto */
+    .contacto{
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+    }
+}

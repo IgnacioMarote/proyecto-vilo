@@ -1,357 +1,288 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Anek Malayalam', sans-serif;
-}
-
 /* HEADER */
-.header__nav{
-    background-color: rgb(3, 208, 3);
-    font-size: 22px;
-}
-a:hover{
-    transform: scale(1.2);
-}
+.header__nav {
+  background-color: #03d003;
+  font-size: 22px; }
 
+a:hover {
+  transform: scale(1.2); }
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+  justify-content: space-evenly; }
+  .footer__redes {
+    display: inline;
+    background-color: green;
+    flex-grow: 1;
+    padding: 70px 0px 0px 300px; }
+    .footer__redes--card {
+      display: block;
+      background-color: green;
+      color: white;
+      margin: 15px;
+      padding: 5px 50px; }
+      .footer__redes--card:hover {
+        padding-left: 56px; }
+      .footer__redes--card a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px; }
+  .footer__logo {
+    display: inline;
+    background-color: green;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px; }
+    .footer__logo:hover {
+      transform: translate(0px, -5px); }
+  .footer__mapa {
+    background-color: green;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 0px 150px 0px 150px;
+    width: 250px; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Anek Malayalam', sans-serif; }
 
 /* INICIO */
-.inicio{
-    display: flex;
-    background-color: rgb(226, 226, 226);
-    flex-wrap: nowrap;
-}
-.inicio__parrafo{
+.inicio {
+  display: flex;
+  background-color: #e2e2e2;
+  flex-wrap: nowrap; }
+  .inicio__parrafo {
     display: block;
     padding: 3%;
-    width: 40vw;
-}
-.inicio__titulo{
-    text-align: center;
-    font-size: 30px;
-}
-.inicio__texto{
-    display: block;
-    text-align: center;
-    font-size: 20px;
-}
-.inicio__img{
+    width: 40vw; }
+    .inicio__parrafo .inicio__titulo {
+      text-align: center;
+      font-size: 30px; }
+    .inicio__parrafo .inicio__texto {
+      display: block;
+      text-align: center;
+      font-size: 20px; }
+  .inicio__img {
     height: 500px;
-    width: 700px;
-}
-.inicio__img img{
+    width: 700px; }
+  .inicio__img img {
     height: 100%;
-    width: 100%;
-}
+    width: 100%; }
 
 /* DEPORTES */
-.deportes{
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(226, 226, 226);
-}
-.deportes__card{
+.deportes {
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2; }
+  .deportes__card {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
     height: 450px;
     width: 500px;
-    text-align: center;
-}
-.deportes__img{
-    height: 400px;
-    width: 500px;
-}
+    text-align: center; }
+    .deportes__card--img {
+      height: 400px;
+      width: 500px; }
 
 /* INSTALACIONES */
-.instalaciones__galeria{
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:"cancha-handball cancha-handball cancha-hockey cancha-hockey karate karate"
-                        "cancha-paddle cancha-paddle cancha-paddle cancha-futbol cancha-futbol cancha-futbol"
-                        "cancha-rugby cancha-rugby dormis-img dormis-img rugby rugby";
-}
-.cancha-handball{
-    grid-area: cancha-handball;
-    background-image: url("../resources/cancha-handball.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.cancha-hockey{
-    grid-area: cancha-hockey;
-    background-image: url("../resources/cancha-hockey.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.karate{
-    grid-area: karate;
-    background-image: url("../resources/karate.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.cancha-paddle{
-    grid-area: cancha-paddle;
-    background-image: url("../resources/cancha-paddle.jpg");
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.cancha-futbol{
-    grid-area: cancha-futbol;
-    background-image: url("../resources/cancha-futbol.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.cancha-rugby{
-    grid-area: cancha-rugby;
-    background-image: url("../resources/cancha-rugby.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.dormis-img{
-    grid-area: dormis-img;
-    background-image: url("../resources/dormis.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
-.rugby{
-    grid-area: rugby;
-    background-image: url("../resources/rugby.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
-}
+.instalaciones__galeria {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "cancha-handball cancha-handball cancha-hockey cancha-hockey karate karate" "cancha-paddle cancha-paddle cancha-paddle cancha-futbol cancha-futbol cancha-futbol" "cancha-rugby cancha-rugby dormis-img dormis-img rugby rugby"; }
+
+.cancha-handball {
+  grid-area: cancha-handball;
+  background-image: url("../resources/cancha-handball.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.cancha-hockey {
+  grid-area: cancha-hockey;
+  background-image: url("../resources/cancha-hockey.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.karate {
+  grid-area: karate;
+  background-image: url("../resources/karate.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.cancha-paddle {
+  grid-area: cancha-paddle;
+  background-image: url("../resources/cancha-paddle.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.cancha-futbol {
+  grid-area: cancha-futbol;
+  background-image: url("../resources/cancha-futbol.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.cancha-rugby {
+  grid-area: cancha-rugby;
+  background-image: url("../resources/cancha-rugby.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.dormis-img {
+  grid-area: dormis-img;
+  background-image: url("../resources/dormis.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
+.rugby {
+  grid-area: rugby;
+  background-image: url("../resources/rugby.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
 
 /* DORMIS */
-.dormis{
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(226, 226, 226);
-}
-.dormis__img{
-    margin: 15px;;
-    width: 600px;
-}
-.dormis__texto{
-    padding: 15px;
-}
+.dormis {
+  text-align: center;
+  font-size: 20px;
+  background-color: #e2e2e2; }
+  .dormis__img {
+    margin: 15px;
+    width: 600px; }
+  .dormis__texto {
+    padding: 15px; }
 
 /* CONTACTO */
-.contacto{
-    text-align: center;
-    padding: 92px;
-    font-size: 20px;
-    background-color: rgb(226, 226, 226);
-}
-
-/* FOOTER */
-.footer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: green;
-    justify-content: space-evenly;
-}
-.footer__redes{
-    display: inline;
-    background-color: green;
-    flex-grow: 1;
-    padding: 70px 0px 0px 300px;
-}
-.footer__redes--card{
-    display: block;
-    background-color: green;
-    color: white;
-    margin: 15px;
-    padding: 5px 50px;
-}
-.footer__redes--card:hover{
-    padding-left: 56px;
-}
-.footer__redes--card a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.footer__logo{
-    display: inline;
-    background-color: green;
-    justify-content: center;
-    margin-top: 100px;
-    width: 100px;
-    height:100px;
-}
-.footer__logo:hover{
-    transform: translate(0px, -5px);
-}
-.footer__mapa{
-    background-color: green;
-    flex-grow: 1;
-    padding: 20px;
-    margin: 0px 150px 0px 150px;
-    width: 250px;
-}
+.contacto {
+  text-align: center;
+  padding: 92px;
+  font-size: 20px;
+  background-color: #e2e2e2; }
 
 /* MEDIA TABLET */
-@media (min-width: 576px) and (max-width: 992px){
-    /* footer */
-    .inicio{
-        flex-wrap: wrap;
-    }
-    .footer__redes{
-        justify-content: center;
-        align-items: center;
-        margin: 16px;
-        padding: 16px;
-        flex-grow: 0;
-    }
-    .footer__logo{
-        display: none;
-    }
-    .footer__mapa{
-        margin: 15px;
-        width: 100%;
-    }
-    /* inicio */
-    .inicio__parrafo{
-        margin: 20px;
-        width: auto;
-    }
-    .inicio__img{
-        width: 90vw;
-        height: auto;
-    }
-    /* deportes */
-    .deportes__card{
-        height: 300px;
-        width: 350px;
-    }
-    .deportes__img{
-        height: 250px;
-        width: 350px;
-    } 
-    /* instalaciones */
-    .instalaciones__galeria{
-        display: grid;
-        width: 100vw;
-        height: 100vh;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:"cancha-handball cancha-hockey"
-                            "karate cancha-paddle"
-                            "cancha-futbol cancha-rugby"
-                            "dormis-img rugby";
-    }
-    /* dormis */
-    .dormis__texto{
-        padding: 15px;
-    }
-}
+@media (min-width: 576px) and (max-width: 992px) {
+  /* footer */
+  .inicio {
+    flex-wrap: wrap; }
+  .footer__redes {
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 16px;
+    flex-grow: 0; }
+  .footer__logo {
+    display: none; }
+  .footer__mapa {
+    margin: 15px;
+    width: 100%; }
+  /* inicio */
+  .inicio__parrafo {
+    margin: 20px;
+    width: auto; }
+  .inicio__img {
+    width: 90vw;
+    height: auto; }
+  /* deportes */
+  .deportes__card {
+    height: 300px;
+    width: 350px; }
+  .deportes__img {
+    height: 250px;
+    width: 350px; }
+  /* instalaciones */
+  .instalaciones__galeria {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "cancha-handball cancha-hockey" "karate cancha-paddle" "cancha-futbol cancha-rugby" "dormis-img rugby"; }
+  /* dormis */
+  .dormis__texto {
+    padding: 15px; } }
 
 /* MEDIA DE CELULAR */
-@media (min-width: 320px) and (max-width:575px){
-    /* footer */
-    .footer__redes{
-        margin: 15px;
-        padding: 15px;
-        justify-content: center;
-        align-items: center;
-        flex-grow: 0;
-    }
-    .footer__logo{
-        display: none;
-    }
-    .footer__mapa{
-        width: 100%;
-        margin: 16px;
-    }
-    /* inicio */
-    .inicio{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .inicio__parrafo{
-        margin: 16px;
-        width: 100%;
-    }
-    .inicio__texto{
-        margin: 16px;
-    }
-    .inicio__img{
-        width: 90vw;
-        height: auto;
-    }
-    /* deportes */
-    .deportes{
-        justify-content: center;
-    }
-    /* instalaciones */
-    .instalaciones__galeria{
-        display: grid;
-        width: 100vw;
-        height: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:"cancha-handball"
-                            "cancha-hockey"
-                            "karate"
-                            "cancha-paddle"
-                            "cancha-futbol"
-                            "cancha-rugby"
-                            "dormis-img"
-                            "rugby";
-    }
-    .cancha-handball{
-        height: 400px;
-    }
-    .cancha-hockey{
-        height: 400px;
-    }
-    .karate{
-        height: 400px;
-    }
-    .cancha-paddle{
-        height: 400px;
-    }
-    .cancha-futbol{
-        height: 400px;
-    }
-    .cancha-rugby{
-        height: 400px;
-    }
-    .dormis-img{
-        height: 400px;
-    }
-    .rugby{
-        height: 400px;
-    }
-    /* dormis */
-    .dormis__img{
-        width: 90vw;
-    }
-    .dormis__texto{
-        padding: 15px;
-    }
-    /* contacto */
-    .contacto{
-        text-align: center;
-        padding: 20px;
-        font-size: 20px;
-    }
-}
+@media (min-width: 320px) and (max-width: 575px) {
+  /* footer */
+  .footer__redes {
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0; }
+  .footer__logo {
+    display: none; }
+  .footer__mapa {
+    width: 100%;
+    margin: 16px; }
+  /* inicio */
+  .inicio {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .inicio__parrafo {
+    margin: 16px;
+    width: 100%; }
+  .inicio__texto {
+    margin: 16px; }
+  .inicio__img {
+    width: 90vw;
+    height: auto; }
+  /* deportes */
+  .deportes {
+    justify-content: center; }
+  /* instalaciones */
+  .instalaciones__galeria {
+    display: grid;
+    width: 100vw;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "cancha-handball" "cancha-hockey" "karate" "cancha-paddle" "cancha-futbol" "cancha-rugby" "dormis-img" "rugby"; }
+  .cancha-handball {
+    height: 400px; }
+  .cancha-hockey {
+    height: 400px; }
+  .karate {
+    height: 400px; }
+  .cancha-paddle {
+    height: 400px; }
+  .cancha-futbol {
+    height: 400px; }
+  .cancha-rugby {
+    height: 400px; }
+  .dormis-img {
+    height: 400px; }
+  .rugby {
+    height: 400px; }
+  /* dormis */
+  .dormis__img {
+    width: 90vw; }
+  .dormis__texto {
+    padding: 15px; }
+  /* contacto */
+  .contacto {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px; } }
