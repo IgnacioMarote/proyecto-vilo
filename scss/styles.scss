@@ -71,65 +71,49 @@
     grid-area: cancha-handball;
     background-image: url("../resources/cancha-handball.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .cancha-hockey{
     grid-area: cancha-hockey;
     background-image: url("../resources/cancha-hockey.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .karate{
     grid-area: karate;
     background-image: url("../resources/karate.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .cancha-paddle{
     grid-area: cancha-paddle;
     background-image: url("../resources/cancha-paddle.jpg");
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .cancha-futbol{
     grid-area: cancha-futbol;
     background-image: url("../resources/cancha-futbol.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .cancha-rugby{
     grid-area: cancha-rugby;
     background-image: url("../resources/cancha-rugby.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .dormis-img{
     grid-area: dormis-img;
     background-image: url("../resources/dormis.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 .rugby{
     grid-area: rugby;
     background-image: url("../resources/rugby.jpg");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1px;
+    @extend .background-img;
 }
 
 /* DORMIS */

@@ -1,3 +1,9 @@
+/* EXTEND */
+.background-img, .cancha-handball, .cancha-hockey, .karate, .cancha-paddle, .cancha-futbol, .cancha-rugby, .dormis-img, .rugby {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1px; }
+
 /* HEADER */
 .header__nav {
   background-color: #03d003;
@@ -102,66 +108,42 @@ a:hover {
 .cancha-handball {
   grid-area: cancha-handball;
   background-image: url("../resources/cancha-handball.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .cancha-hockey {
   grid-area: cancha-hockey;
   background-image: url("../resources/cancha-hockey.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .karate {
   grid-area: karate;
   background-image: url("../resources/karate.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .cancha-paddle {
   grid-area: cancha-paddle;
   background-image: url("../resources/cancha-paddle.jpg");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: bottom; }
 
 .cancha-futbol {
   grid-area: cancha-futbol;
   background-image: url("../resources/cancha-futbol.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .cancha-rugby {
   grid-area: cancha-rugby;
   background-image: url("../resources/cancha-rugby.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .dormis-img {
   grid-area: dormis-img;
   background-image: url("../resources/dormis.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 .rugby {
   grid-area: rugby;
   background-image: url("../resources/rugby.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1px; }
+  background-position: center; }
 
 /* DORMIS */
 .dormis {
@@ -261,21 +243,29 @@ a:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "cancha-handball" "cancha-hockey" "karate" "cancha-paddle" "cancha-futbol" "cancha-rugby" "dormis-img" "rugby"; }
   .cancha-handball {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .cancha-hockey {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .karate {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .cancha-paddle {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .cancha-futbol {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .cancha-rugby {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .dormis-img {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   .rugby {
-    height: 400px; }
+    height: 400px;
+    padding: 4px; }
   /* dormis */
   .dormis__img {
     width: 90vw; }
