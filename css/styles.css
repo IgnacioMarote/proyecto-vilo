@@ -148,13 +148,13 @@ a:hover {
 /* DORMIS */
 .dormis {
   text-align: center;
-  font-size: 20px;
   background-color: #e2e2e2; }
   .dormis__img {
     margin: 15px;
     width: 600px; }
   .dormis__texto {
-    padding: 15px; }
+    padding: 15px;
+    font-size: 20px; }
 
 /* CONTACTO */
 .contacto {
