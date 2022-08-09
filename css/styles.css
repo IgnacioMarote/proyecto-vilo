@@ -6,7 +6,9 @@
 
 /* HEADER */
 .header__nav {
-  background-color: #03d003;
+  /* background-color: rgb(3, 208, 3); */
+  background: #03d003;
+  background: linear-gradient(0deg, #03d003 0%, #03c803 100%);
   font-size: 22px; }
 
 a:hover {
@@ -81,8 +83,8 @@ a:hover {
 
 /* DEPORTES */
 .deportes {
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+    align-items: center; */
   background-color: #e2e2e2; }
   .deportes__card {
     display: inline-flex;
@@ -166,8 +168,6 @@ a:hover {
 /* MEDIA TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
   /* footer */
-  .inicio {
-    flex-wrap: wrap; }
   .footer__redes {
     justify-content: center;
     align-items: center;
@@ -180,6 +180,8 @@ a:hover {
     margin: 15px;
     width: 100%; }
   /* inicio */
+  .inicio {
+    flex-wrap: wrap; }
   .inicio__parrafo {
     margin: 20px;
     width: auto; }
@@ -190,7 +192,7 @@ a:hover {
   .deportes__card {
     height: 300px;
     width: 350px; }
-  .deportes__img {
+  .deportes__card--img {
     height: 250px;
     width: 350px; }
   /* instalaciones */
@@ -234,6 +236,13 @@ a:hover {
   /* deportes */
   .deportes {
     justify-content: center; }
+  .deportes__card {
+    margin: 0px;
+    height: 300px;
+    width: 90vw; }
+  .deportes__card--img {
+    height: 250px;
+    width: 90vw; }
   /* instalaciones */
   .instalaciones__galeria {
     display: grid;

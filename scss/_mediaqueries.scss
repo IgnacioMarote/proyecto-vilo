@@ -1,9 +1,6 @@
 /* MEDIA TABLET */
 @media (min-width: 576px) and (max-width: 992px){
     /* footer */
-    .inicio{
-        flex-wrap: wrap;
-    }
     .footer__redes{
         justify-content: center;
         align-items: center;
@@ -19,6 +16,9 @@
         width: 100%;
     }
     /* inicio */
+    .inicio{
+        flex-wrap: wrap;
+    }
     .inicio__parrafo{
         margin: 20px;
         width: auto;
@@ -32,7 +32,7 @@
         height: 300px;
         width: 350px;
     }
-    .deportes__img{
+    .deportes__card--img{
         height: 250px;
         width: 350px;
     } 
@@ -90,6 +90,15 @@
     /* deportes */
     .deportes{
         justify-content: center;
+    }
+    .deportes__card{
+        margin: 0px;
+        height: 300px;
+        width: 90vw;
+    }
+    .deportes__card--img{
+        height: 250px;
+        width: 90vw;
     }
     /* instalaciones */
     .instalaciones__galeria{
