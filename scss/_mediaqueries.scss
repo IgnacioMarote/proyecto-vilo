@@ -52,6 +52,10 @@
     .dormis__texto{
         padding: 15px;
     }
+    /* contacto */
+    .contacto__card{
+        width: 40vw;
+    }
 }
 
 /* MEDIA DE CELULAR */
@@ -92,12 +96,12 @@
         justify-content: center;
     }
     .deportes__card{
-        margin: 0px;
-        height: 300px;
+        margin-top: 10px;
+        height: auto;
         width: 90vw;
     }
     .deportes__card--img{
-        height: 250px;
+        height: auto;
         width: 90vw;
     }
     /* instalaciones */
@@ -159,6 +163,9 @@
     .contacto{
         text-align: center;
         padding: 20px;
-        font-size: 20px;
+        font-size: 1.3em;
+        &__card{
+            width: 90vw;
+        }
     }
 }

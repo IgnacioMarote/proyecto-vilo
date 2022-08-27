@@ -9,7 +9,7 @@
   /* background-color: rgb(3, 208, 3); */
   background: #03d003;
   background: linear-gradient(0deg, #03d003 0%, #03c803 100%);
-  font-size: 22px; }
+  font-size: 1.4em; }
 
 a:hover {
   transform: scale(1.2); }
@@ -24,7 +24,7 @@ a:hover {
     display: inline;
     background-color: green;
     flex-grow: 1;
-    padding: 70px 0px 0px 300px; }
+    padding: 40px 0px 0px 300px; }
     .footer__redes--card {
       display: block;
       background-color: green;
@@ -36,7 +36,7 @@ a:hover {
       .footer__redes--card a {
         text-decoration: none;
         color: white;
-        font-size: 20px; }
+        font-size: 1.3em; }
   .footer__logo {
     display: inline;
     background-color: green;
@@ -52,6 +52,10 @@ a:hover {
     padding: 20px;
     margin: 0px 150px 0px 150px;
     width: 250px; }
+  .footer__copyright {
+    color: white;
+    text-align: center;
+    width: 100vw; }
 
 * {
   margin: 0px;
@@ -69,11 +73,11 @@ a:hover {
     width: 40vw; }
     .inicio__parrafo .inicio__titulo {
       text-align: center;
-      font-size: 30px; }
+      font-size: 2em; }
     .inicio__parrafo .inicio__texto {
       display: block;
       text-align: center;
-      font-size: 20px; }
+      font-size: 1.3em; }
   .inicio__img {
     height: 500px;
     width: 700px; }
@@ -83,13 +87,9 @@ a:hover {
 
 /* DEPORTES */
 .deportes {
-  /* justify-content: center;
-    align-items: center; */
   background-color: #e2e2e2; }
   .deportes__card {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
     margin: 20px;
     height: 450px;
     width: 500px;
@@ -101,6 +101,8 @@ a:hover {
 /* INSTALACIONES */
 .instalaciones__galeria {
   display: grid;
+  background-color: #e2e2e2;
+  padding: 20px;
   width: 100%;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -156,14 +158,19 @@ a:hover {
     width: 600px; }
   .dormis__texto {
     padding: 15px;
-    font-size: 20px; }
+    font-size: 1.3em; }
 
 /* CONTACTO */
 .contacto {
   text-align: center;
-  padding: 92px;
-  font-size: 20px;
+  height: auto;
+  padding: 30px 30px 150px 30px;
+  font-size: 1.3em;
   background-color: #e2e2e2; }
+
+.contacto__card {
+  margin: 6px;
+  width: 30vw; }
 
 /* MEDIA TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
@@ -205,7 +212,10 @@ a:hover {
     grid-template-areas: "cancha-handball cancha-hockey" "karate cancha-paddle" "cancha-futbol cancha-rugby" "dormis-img rugby"; }
   /* dormis */
   .dormis__texto {
-    padding: 15px; } }
+    padding: 15px; }
+  /* contacto */
+  .contacto__card {
+    width: 40vw; } }
 
 /* MEDIA DE CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -237,11 +247,11 @@ a:hover {
   .deportes {
     justify-content: center; }
   .deportes__card {
-    margin: 0px;
-    height: 300px;
+    margin-top: 10px;
+    height: auto;
     width: 90vw; }
   .deportes__card--img {
-    height: 250px;
+    height: auto;
     width: 90vw; }
   /* instalaciones */
   .instalaciones__galeria {
@@ -284,4 +294,6 @@ a:hover {
   .contacto {
     text-align: center;
     padding: 20px;
-    font-size: 20px; } }
+    font-size: 1.3em; }
+    .contacto__card {
+      width: 90vw; } }
