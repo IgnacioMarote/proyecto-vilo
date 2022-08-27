@@ -136,10 +136,11 @@
     padding: 30px 30px 150px 30px;
     font-size: 1.3em;
     background-color: $color-background;
+    &__card{
+        margin: 6px;
+        width: 30vw
+    }
 }
-.contacto__card{
-    margin: 6px;
-    width: 30vw
-}
+
 
 @import "mediaqueries";

@@ -167,10 +167,9 @@ a:hover {
   padding: 30px 30px 150px 30px;
   font-size: 1.3em;
   background-color: #e2e2e2; }
-
-.contacto__card {
-  margin: 6px;
-  width: 30vw; }
+  .contacto__card {
+    margin: 6px;
+    width: 30vw; }
 
 /* MEDIA TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
